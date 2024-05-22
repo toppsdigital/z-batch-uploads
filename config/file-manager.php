@@ -67,7 +67,7 @@ return [
      * set null, 0 - if you don't need cache (default)
      * if you want use cache - set the number of minutes for which the value should be cached
      */
-    'cache' => null,
+    'cache' => 10,
 
     /**
      * File manager modules configuration
@@ -76,7 +76,7 @@ return [
      * 2 - one file manager window with directories tree module
      * 3 - two file manager windows
      */
-    'windowsConfig' => 2,
+    'windowsConfig' => 1,
 
     /**
      * File upload - Max file size in KB
